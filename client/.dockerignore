@@ -1,0 +1,13 @@
+node_modules
+.next
+.git
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+.DS_Store
+.vscode
+*.md
+bun.lock
+bun.lockb
+coverage

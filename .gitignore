@@ -1,0 +1,114 @@
+# ── Claude Code ──────────────────────────────────────────────────────────────
+CLAUDE.md
+untrack/
+
+# ── Environment & secrets ────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.tox/
+.cache
+nosetests.xml
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ── Go ───────────────────────────────────────────────────────────────────────
+rag-system/bin/
+rag-system/tmp/
+*.test
+*.out
+vendor/
+
+# ── Node / Next.js (client) ──────────────────────────────────────────────────
+client/node_modules/
+client/.next/
+client/out/
+client/build/
+client/.pnp
+client/.pnp.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+*.log.*
+logs/
+
+# ── Databases & vector stores ────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+database/vector_store/
+app/database/vector_store/
+
+# ── Uploaded / user data ─────────────────────────────────────────────────────
+server/data/uploads/*
+!server/data/uploads/.gitkeep
+data/uploads/*
+!data/uploads/.gitkeep
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+notebooks/
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Local-only docs ──────────────────────────────────────────────────────────
+docs/
+deployment.md
